@@ -1,11 +1,52 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Lato");
 body {
   font-family: "Lato", sans-serif; }
 
-body {
-  font-family: "Lato", sans-serif; }
+/*Header*/
+#navigation {
+  background: #fffeff; }
+  #navigation .container #bs-example-navbar-collapse-1 .navbar-nav li {
+    overflow: hidden; }
+    #navigation .container #bs-example-navbar-collapse-1 .navbar-nav li a {
+      font-size: 20px;
+      color: #ba6a0f;
+      transition: 0.5s all; }
+      #navigation .container #bs-example-navbar-collapse-1 .navbar-nav li a:hover {
+        transform: scale(1.1);
+        color: #489dcc; }
 
 /*Jumbotron*/
+.jumbotron {
+  height: 100vh;
+  background: #ccc url("../img/background.jpg") 0/cover no-repeat;
+  position: relative; }
+  .jumbotron .logo {
+    margin-top: 35vh;
+    text-align: center;
+    color: #fffeff; }
+  .jumbotron .quote {
+    color: #489dcc;
+    position: absolute;
+    bottom: 3vh; }
+    .jumbotron .quote .box {
+      background: linear-gradient(to right, rgba(154, 103, 76, 0.7), rgba(203, 143, 14, 0.7));
+      border-radius: 5px;
+      color: #fffeff;
+      padding: 5px 10px 5px 10px; }
+    .jumbotron .quote .buttons {
+      float: right; }
+      .jumbotron .quote .buttons #twitter {
+        width: 22px;
+        margin-right: 10px; }
+        .jumbotron .quote .buttons #twitter i {
+          font-size: 18px;
+          transition: 0.5s all; }
+          .jumbotron .quote .buttons #twitter i:hover {
+            transform: scale(1.1); }
+      .jumbotron .quote .buttons .btn {
+        margin-right: 10px;
+        font-weight: bold; }
+        .jumbotron .quote .buttons .btn:hover {
+          color: #ba6a0f; }
 
 /*# sourceMappingURL=main.css.map */

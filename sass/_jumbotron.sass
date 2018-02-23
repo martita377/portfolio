@@ -1,5 +1,33 @@
-@import "_common"
 /*Jumbotron*/
 .jumbotron
-
-
+	height: 100vh
+	background:  #ccc url("../img/background.jpg") 0/cover no-repeat 
+	position: relative
+	.logo
+		margin-top: 35vh
+		text-align: center
+		color: $baseColor
+	.quote
+		color: $blue
+		position: absolute
+		bottom: 3vh
+		.box
+			background: linear-gradient(to right, $quoteBoxColor1, $quoteBoxColor2)
+			border-radius: 5px
+			color: $baseColor
+			padding: 5px 10px 5px 10px
+		.buttons
+			float: right		
+			#twitter
+				width: 22px
+				margin-right: 10px
+				i
+					font-size: 18px
+					transition: 0.5s all	
+					&:hover
+						transform: scale(1.1)
+			.btn
+				margin-right: 10px
+				font-weight: bold
+				&:hover
+					color: $darkOrange
