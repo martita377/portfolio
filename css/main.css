@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
+#about .big-title {
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #fffeff, #489dcc, #ba6a0f, #e7b506, #ba6a0f, #489dcc, #fffeff);
+  color: #fffeff; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -6,7 +14,8 @@ body {
 #navigation {
   background: #fffeff; }
   #navigation .container #bs-example-navbar-collapse-1 .navbar-nav li {
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: center; }
     #navigation .container #bs-example-navbar-collapse-1 .navbar-nav li a {
       font-size: 20px;
       color: #ba6a0f;
@@ -48,5 +57,37 @@ body {
         font-weight: bold; }
         .jumbotron .quote .buttons .btn:hover {
           color: #ba6a0f; }
+
+/*About*/
+#about .all-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #about .all-icons .about-info {
+    padding-top: 100px; }
+  #about .all-icons .icons {
+    width: 270px;
+    text-align: center;
+    margin: 10px 10px 30px 10px; }
+    #about .all-icons .icons img {
+      height: 100px; }
+
+#about .big-title {
+  margin-bottom: 50px; }
+  #about .big-title h2, #about .big-title h3 {
+    margin-bottom: 20px; }
+
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 24px; }
+  #about h3 {
+    font-size: 20px; }
+  #about h4 {
+    font-size: 16px; }
+  #about .all-icons .icons {
+    width: 150px; }
+    #about .all-icons .icons img {
+      height: 70px;
+      margin: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

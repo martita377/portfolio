@@ -1,0 +1,34 @@
+/*About*/
+#about
+	.all-icons
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		.about-info
+			padding-top: 100px
+		.icons
+			width: 270px
+			text-align: center
+			margin: 10px 10px 30px 10px
+			img
+				height: 100px
+	.big-title
+		@extend %title
+		margin-bottom: 50px
+		h2, h3
+			margin-bottom: 20px
+
+@media (max-width: 768px)
+	#about
+		h2
+			font-size: 24px
+		h3
+			font-size: 20px	
+		h4
+			font-size: 16px		
+		.all-icons
+			.icons
+				width: 150px
+				img
+					height: 70px
+					margin: 10px
