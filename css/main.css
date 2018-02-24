@@ -138,4 +138,36 @@ body {
     .carousel-inner .item .carousel-caption .carousel-icons {
       display: none; } }
 
+/*Contact*/
+#contact {
+  color: #fffeff;
+  padding: 10px 0;
+  margin-top: 30px;
+  background: linear-gradient(to right, #7a7879, #9a674c, #ba6a0f, #9a674c, #7a7879); }
+  #contact .content {
+    text-align: center;
+    margin: 10px auto; }
+
+.forms {
+  margin: 25px; }
+  .forms .form-group .submit-button {
+    color: #ba6a0f;
+    font-weight: bold;
+    background: #dddddd; }
+    .forms .form-group .submit-button:hover {
+      color: #489dcc; }
+
+.personal-data {
+  margin: 50px 5px; }
+  .personal-data a i {
+    margin: 20px 5px; }
+
+/*Footer*/
+.footer {
+  background: linear-gradient(to right, #7a7879, #9a674c, #ba6a0f, #9a674c, #7a7879);
+  text-align: center;
+  padding: 10px;
+  color: #fffeff;
+  border-top: 1px solid #7a7879; }
+
 /*# sourceMappingURL=main.css.map */
