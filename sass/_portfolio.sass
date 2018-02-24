@@ -1,0 +1,64 @@
+/*Portfolio*/
+#portfolio
+	.big-title
+		@extend %title
+		padding: 10px 0
+		h2
+			margin-bottom: 20px
+.carousel
+	.carousel-indicators
+		li
+			background: $lightOrange
+.carousel-control
+	.glyphicon
+		color: $blue
+.carousel-inner
+	.item
+		.carousel-caption
+			background: rgba(0, 0, 0, 0.3)
+			border-radius: 10px
+			margin-bottom: 40px
+			padding: 20px
+			color: $lightOrange
+			.carousel-icons
+				img
+					height: 70px
+					margin: 5px
+
+
+@media (max-width: 992px)
+	.carousel-inner
+		.item
+			.carousel-caption
+				border-radius: 5px
+				margin-bottom: 10px
+				padding: 10px
+				.carousel-icons
+					img
+						height: 40px
+						margin: 5px
+
+@media (max-width: 768px)
+	#portfolio
+		.big-title
+			h2
+				font-size: 24px
+
+	.carousel-inner
+		.item
+			.carousel-caption
+				margin-bottom: 10px
+				padding: 10px
+				.carousel-icons
+					img
+						height: 40px
+						margin: 5px
+
+@media (max-width: 576px)
+	.carousel-inner
+		.item
+			.carousel-caption
+				margin-bottom: 10px
+				padding: 10px
+				.carousel-icons
+					display: none

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-#about .big-title {
+#about .big-title, #portfolio .big-title {
   margin-top: 50px;
   padding: 10px;
   text-align: center;
@@ -89,5 +89,53 @@ body {
     #about .all-icons .icons img {
       height: 70px;
       margin: 10px; } }
+
+/*Portfolio*/
+#portfolio .big-title {
+  padding: 10px 0; }
+  #portfolio .big-title h2 {
+    margin-bottom: 20px; }
+
+.carousel .carousel-indicators li {
+  background: #e7b506; }
+
+.carousel-control .glyphicon {
+  color: #489dcc; }
+
+.carousel-inner .item .carousel-caption {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+  color: #e7b506; }
+  .carousel-inner .item .carousel-caption .carousel-icons img {
+    height: 70px;
+    margin: 5px; }
+
+@media (max-width: 992px) {
+  .carousel-inner .item .carousel-caption {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px; }
+    .carousel-inner .item .carousel-caption .carousel-icons img {
+      height: 40px;
+      margin: 5px; } }
+
+@media (max-width: 768px) {
+  #portfolio .big-title h2 {
+    font-size: 24px; }
+  .carousel-inner .item .carousel-caption {
+    margin-bottom: 10px;
+    padding: 10px; }
+    .carousel-inner .item .carousel-caption .carousel-icons img {
+      height: 40px;
+      margin: 5px; } }
+
+@media (max-width: 576px) {
+  .carousel-inner .item .carousel-caption {
+    margin-bottom: 10px;
+    padding: 10px; }
+    .carousel-inner .item .carousel-caption .carousel-icons {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */
