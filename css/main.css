@@ -108,6 +108,11 @@ body {
   margin-bottom: 40px;
   padding: 20px;
   color: #e7b506; }
+  .carousel-inner .item .carousel-caption a {
+    color: #e7b506;
+    text-decoration: none; }
+    .carousel-inner .item .carousel-caption a:hover {
+      color: #489dcc; }
   .carousel-inner .item .carousel-caption .carousel-icons img {
     height: 70px;
     margin: 5px; }
