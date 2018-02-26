@@ -154,7 +154,7 @@ body {
 /*Contact*/
 #contact {
   color: #fffeff;
-  padding: 10px 0;
+  padding: 30px;
   margin-top: 30px;
   background: linear-gradient(to right, #7a7879, #9a674c, #ba6a0f, #9a674c, #7a7879); }
   #contact .content {
@@ -162,18 +162,29 @@ body {
     margin: 10px auto; }
 
 .forms {
-  margin: 25px; }
-  .forms .form-group .submit-button {
-    color: #ba6a0f;
-    font-weight: bold;
-    background: #dddddd; }
-    .forms .form-group .submit-button:hover {
-      color: #489dcc; }
+  margin-top: 20px; }
+  .forms .form-group {
+    font-size: 18px;
+    padding: 10px; }
+    .forms .form-group .submit-button {
+      color: #ba6a0f;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      background: #dddddd; }
+      .forms .form-group .submit-button:hover {
+        color: #489dcc; }
 
 .personal-data {
-  margin: 50px 5px; }
+  margin: 30px auto; }
   .personal-data a i {
-    margin: 20px 5px; }
+    padding: 10px;
+    color: #489dcc; }
+    .personal-data a i:hover {
+      color: #e7b506; }
+  .personal-data p {
+    font-size: 18px;
+    padding: 10px; }
 
 /*Footer*/
 .footer {
